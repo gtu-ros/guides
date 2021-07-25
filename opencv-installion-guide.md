@@ -1,7 +1,19 @@
 # OpenCV Installion to Jetson
 
 ```shell
-git clone https://github.com/opencv/opencv && cd $_
+git clone https://github.com/opencv/opencv
+```
+
+```shell
+cd opencv
+```
+
+```shell
+git checkout <VERSION>
+```
+
+```shell
+
 mkdir build
 ```
 
