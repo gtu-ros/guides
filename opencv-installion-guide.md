@@ -12,9 +12,38 @@ cd opencv
 git checkout <VERSION>
 ```
 
+Return home folder
+
+```shell
+cd
+```
+
+```shell
+git clone https://github.com/opencv/opencv_contrib
+```
+
+```shell
+cd opencv_contrib
+```
+
+```shell
+git checkout <VERSION>
+```
+
+
+Return home folder
+
+```shell
+cd
+```
+
 ```shell
 
-mkdir build
+mkdir opencv_build
+```
+
+```shell
+cd opencv_build
 ```
 
 ```shell
