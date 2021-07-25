@@ -1,6 +1,11 @@
 # OpenCV Installion to Jetson
 
 ```shell
+git clone https://github.com/opencv/opencv && cd $_
+mkdir build
+```
+
+```shell
 cmake -DCMAKE_BUILD_TYPE=Release \
 -DBUILD_TESTS=OFF \
 -DBUILD_DOCS=OFF \
