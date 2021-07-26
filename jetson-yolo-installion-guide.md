@@ -8,9 +8,10 @@ cd darknet
 mkdir build_release
 ```
 
+CMAKE `BUILD_SHARED_LIBS` variable always have to enable.
 ```shell
 cmake -DBUILD_AS_CPP=ON \
--DBUILD_SHARED_LIBS=OFF \
+-DBUILD_SHARED_LIBS=ON \
 -DENABLE_VCPKG_INTEGRATION=OFF \
 -DVCPKG_BUILD_OPENCV_WITH_CUDA=OFF \
 -DVCPKG_USE_OPENCV4=OFF \
