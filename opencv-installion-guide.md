@@ -48,6 +48,7 @@ cd opencv_build
 
 ```shell
 cmake -DCMAKE_BUILD_TYPE=Release \
+-DOPENCV_EXTRA_MODULES_PATH=../opencv_contrib/modules \
 -DBUILD_TESTS=OFF \
 -DBUILD_DOCS=OFF \
 -DBUILD_EXAMPLES=OFF \
@@ -77,5 +78,5 @@ cmake -DCMAKE_BUILD_TYPE=Release \
 -DENABLE_FAST_MATH=ON \
 -DCUDA_ARCH_BIN="7.5" \
 -DOPENCV_ENABLE_NONFREE=ON \
--DOPENCV_EXTRA_MODULES_PATH=../opencv_contrib/modules ../opencv
+-DBUILD_LIST=core,highgui,improc,videoio,aruco,cudaarithm,cudabgsegm,cudafeatures2d,cudafilters,cudaimgproc,cudalegacy,cudaobjdetect,cudaoptflow,cudastereo,cudawarping,cudev ../opencv
 ```
